@@ -1,0 +1,30 @@
+>>conda -V
+conda was 4.7.10
+
+Update the Anaconda version
+>> conda update conda
+conda got updated to 4.7.12
+
+>> anaconda -V
+anaconda Command line client (version 1.7.2)
+>> conda update anaconda
+
+Create new environment called "deeplearning"
+>> conda create --name deeplearning
+
+Install PyTorch for CPU
+>> conda install pytorch-cpu torchvision-cpu -c pytorch
+numpy was included in PyTorch package
+
+Install Tensorflow for CPU
+>>conda install -c conda-forge tensorflow
+
+Install Keras
+>>conda install -c conda-forge keras
+
+Install Jupyter notebook
+>>conda install jupyter
+
+Install Seaborn
+>>conda install seaborn
+matplotlib and pandas was included in seaborn package
